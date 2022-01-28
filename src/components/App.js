@@ -4,7 +4,12 @@ import { Loader } from './Loader';
 import { Todo } from './Todo';
 const App = () => {
   
-  
+  return (
+    <div className="App">
+      <Loader />
+      <Todo  />
+    </div>
+  );
 }
 
 
